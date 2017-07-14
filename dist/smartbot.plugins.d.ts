@@ -1,3 +1,4 @@
 import 'typings-global';
 declare let apiai: any;
-export { apiai };
+import * as smartq from 'smartq';
+export { apiai, smartq };

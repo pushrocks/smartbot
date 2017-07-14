@@ -1,5 +1,6 @@
 export declare class Smartbot {
-    apiKey: string;
+    private apiKey;
     private apiAiApp;
     constructor(apiAiKeyArg: string);
+    textRequest(textArg: string): Promise<{}>;
 }
